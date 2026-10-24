@@ -1,0 +1,36 @@
+
+# Virtual environments
+.venv/
+.venv-keras3-test/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local generated analysis history
+grape_leaf_analysis_history.xlsx
+
+# Training datasets and notebook outputs
+data/
+dataset/
+datasets/
+*.ipynb_checkpoints
+
+# Local environment secrets
+.env
+.streamlit/secrets.toml
+
+
+# Local backups
+*.zip
+
+# Test images
+test*.jpg
+test*.jpeg
+
+# Local inspection scripts
+inspect_*.py
+predict_mobilenet.py
+test_mobilenet.py
